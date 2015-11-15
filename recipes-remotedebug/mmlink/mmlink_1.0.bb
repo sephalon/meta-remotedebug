@@ -6,7 +6,8 @@ LIC_FILES_CHKSUM="file://${COMMON_LICENSE_DIR}/BSD-3-Clause;md5=550794465ba0ec53
 PR = "r0"
 FILES_${PN} = "	/home/root/altera/* "
 
-DEPENDS += "linux-altera-ltsi"		
+#DEPENDS += "linux-altera-ltsi"		
+DEPENDS += "enclustra-linux-altera"		
 
 SRC_URI = "file://dprint.h "
 SRC_URI += "file://main.cpp "
